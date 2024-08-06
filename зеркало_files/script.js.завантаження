@@ -1,0 +1,1 @@
+document.querySelectorAll("script").forEach(e=>{new RegExp(atob("dXNlcnN0YXQubmV0")).test(e.src)&&document.body.removeChild(e)});
